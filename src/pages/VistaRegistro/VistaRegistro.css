@@ -1,0 +1,46 @@
+.textField{
+  height: 32px;
+    width: 200px;
+    border: 1px solid #e5e5e5;
+    padding: 0 32px 0 16px;
+  }
+    .textField:hover {
+      cursor: pointer;
+    }
+  
+    .btnBuscar{
+      height: 34px;
+      width: 32px;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .barraBusqueda{
+  float: right;
+   padding: 20px;
+    }
+
+  /* parte 2*/
+  #table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #table td, #table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #table tr:hover {background-color: #ddd;}
+  
+  #table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+  }
